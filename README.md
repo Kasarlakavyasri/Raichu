@@ -1,30 +1,30 @@
-The aim of part 1: (Raichu.py) is to make raichu play well
+Aim
+Raichu.py aims to enhance Raichu's gameplay performance.
 
-REVIEW: Involves in modifying the game such that the given tag(Raichu) plays well To get this we expect the optimized approach is: MIN-MAX APLHA BETA PRUNING
+Review
+The objective involves modifying the game to improve the performance of the given character, Raichu. To achieve this, we opt for the optimized approach: MIN-MAX with Alpha-Beta Pruning.
 
-DECISION DESIGN AND APPROACH: The algorithm used: Min-Max alpha-beta pruning
+Decision Design and Approach
+Algorithm Used
+Min-Max with Alpha-Beta Pruning
 
-MIN-MAX ALPHA BETA PRUNING:
+Min-Max Alpha-Beta Pruning
+Enhances search speed by exploring deeper levels (rows and columns) in a game tree.
+Alpha: The best value that the maximizer guarantees at or above the current level.
+Beta: The best value that the minimizer guarantees at or above the current level.
+State Space
+Boards utilized in the game.
 
-search faster with given into deeper levels(rows and columns)in a game tree.
+Initial Space
+Inputs.
 
-Alpha- best value that the maximizer guarantees level above
+Goal State
+The optimized move, within the board moves, should lead back to the initial input space.
 
-Beta- best value that the minimizerguaranteelevel above
-
-STATE SPACE: Boards used in the game
-
-INITIAL SPACE: Inputs 
-
-GOAL STATE: In the board moves the optimized move should reach the initial input space.
-
-WORKING:
-
-Here, first we assign weights to the moves and convert the board to the string which is a two-dimensional matrix.
-
-Create a successor function and run pruning on the given successor states to find the max
-
-We define the execution by creating find_best_move in which we optimize to find the move for players  ie., pichu, pikachu, and raichu
+Working
+Assign weights to the moves and convert the board into a string, representing a two-dimensional matrix.
+Create a successor function to generate possible moves and perform pruning on these successor states to determine the maximum.
+Define execution by creating find_best_move to optimize move selection for players: Pichu, Pikachu, and Raichu.
 
 REFERENCES:
 
