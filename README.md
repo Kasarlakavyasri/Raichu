@@ -5,6 +5,7 @@
 * The objective involves modifying the game to improve the performance of the given character, Raichu. To achieve this, we opt for the optimized approach: **MIN-MAX with Alpha-Beta Pruning.**
 
 ***Decision Design and Approach***
+
 **Algorithm Used**
 Min-Max with Alpha-Beta Pruning
 **
